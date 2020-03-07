@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'c7af4a05-e4d4-49c1-a6be-2ef1941ded6b'
   imageRepository: 'boostrapimage'
   containerRegistry: 'pipelinecontainerregistry.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '.'
   tag: 'v1'
   
   # Agent VM image name
